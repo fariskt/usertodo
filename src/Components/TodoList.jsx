@@ -37,7 +37,7 @@ const TodoList = () => {
   };
 
   return (
-    <div>
+    <div className="todo-container">
       <h2>Todo list</h2>
       <div className="todo">
         <input
