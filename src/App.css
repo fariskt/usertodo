@@ -1,0 +1,44 @@
+
+
+
+
+
+ul li{
+  list-style-type: none;
+}
+.todo input{
+  padding: 10px 20px;
+}
+.todo button{
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.list-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}
+.list-items button{
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.green{
+  background-color: green;
+  font-size: 20px;
+  color: white;
+  min-width: 100px;
+  list-style-type: none;
+}
+.yellow{
+  background-color: yellow;
+  list-style-type: none;
+  font-size: 20px;
+  min-width: 100px;
+}
